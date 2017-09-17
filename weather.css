@@ -1,0 +1,169 @@
+html, body{
+
+}
+
+.container-fluid{
+  margin-top: 20px;
+}
+
+.city{
+  width:100%;
+  border: 2px solid lightgrey;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 21px;
+/*  border-radius: 2%;*/
+}
+
+form{
+  display: inline-block;
+}
+
+
+.change{
+  text-transform: capitalize;
+
+}
+
+.col-sm-6 {
+
+}
+
+.div1{
+  background-color: #F7F9F9;
+  height:200px;
+  width:84%;
+  padding-left: 20px;
+  margin-bottom: 28px;
+  border-radius: 10px;
+}
+
+.div2{
+  background-color:#F7F9F9;
+  height:120px;
+  width:84%;
+  padding-left: 20px;
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.div2a{
+  background-color: white;
+  height:80px;
+  width:84%;
+  padding-left: 20px;
+  border-top: 0;
+  margin-bottom: 8px;
+  border-radius: 0 0 10px 10px;
+}
+
+.div3{
+  background-color: #F7F9F9;
+  height:120px;
+  width:84%;
+  padding-left: 20px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 0;
+}
+
+.div3a, .div3b, .div3c, .div3d, .div3e {
+  height:100px;
+  width:84%;
+  padding-left: 20px;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.div3a{
+  background-color: #D5F5E3;
+  border-color: #D5F5E3;
+}
+
+.div3b{
+  background-color: white;
+  border-color: #D5F5E3;
+}
+
+.div3c{
+  background-color: #FCF3CF;
+  border-color: #FCF3CF;
+}
+
+.div3d{
+  background-color: white;
+  border-color: #FCF3CF;
+}
+
+.div3e{
+  background-color: #AED6F1;
+  border-color: #AED6F1;
+}
+.div3f{
+  background-color: white;
+  border-color: #AED6F1;
+  width:84%;
+  padding-left: 20px;
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.div3b, .div3d, .div3f{
+  margin-top: -10px;
+  height:80px;
+}
+
+#weather_button{
+  background-color: white;
+  border-radius: 4px;
+  border: 2px solid lightgrey;
+}
+
+.town{
+  border-radius: 4px;
+  border: 0;
+  border: 2px solid lightgrey;
+}
+
+span, form{
+  margin-top: 15px;
+
+}
+
+.div_headers{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.div_headers2{
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.change{
+  font-size: 52px;
+  padding-top: 34px;
+}
+
+
+.conditions {
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+
+.current, .high, .low{
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.sub1{
+  color: #196F3D;
+}
+
+.sub2{
+  color: #B7950B;
+}
+
+.sub3{
+  color: #2471A3;
+}
