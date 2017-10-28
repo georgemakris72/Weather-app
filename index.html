@@ -7,23 +7,36 @@
     <link rel="stylesheet" type="text/css" href="weather.css"/>
     <title></title>
   </head>
-  <body>
+  <body class="normal">
     <div class="container-fluid">
-    <div class="col-sm-3"></div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
     <div class="city div1">
    <span><b>Search for city:</b></span> <form> <input type="text" name="town" class="town">
      <input type="button" value="Submit" id="weather_button"></form>
     <p class="change"></p>
-     </div>
-     <div class="city div2 "> <p class="div_headers">Conditions</p></div><div class="city div2a"><p class="conditions"></p></div>
-    <div class="city div3"> <p class="div_headers">Temperatures</p></div>
-     <div class="city div3a"><p class="div_headers2 sub1">Current</p></div><div class="city div3b"><p class="current"></p></div>
-      <div class="city div3c"><p class="div_headers2 sub2">High</p></div><div class="city div3d"><p class="high"></p></div>
-      <div class="city div3e"><p class="div_headers2 sub3">Low</p></div><div class="city div3f"><p class="low"></p></div>
+
+     <div class="city"> <p class="div_headers sub4" id="header">Conditions</p></div><div class="city"><p class="conditions"></p></div>
+    <div class="city"> <p class="div_headers sub4">Temperatures:</p></div>
+     <div class="city sub1"><p class="div_headers2">Current:</p></div>
+     <div class="city sub2"><p class="current"></p></div>
+      <div class="city sub1"><p class="div_headers2">High:</p></div>
+      <div class="city sub2"><p class="high"></p></div>
+      <div class="city sub1"><p class="div_headers2">Low:</p></div>
+      <div class="city sub2"><p class="low"></p></div>
+
+  <div id="weekly">
+    <p id="five-day">5 day forecast</p>
+  <p class="upcoming"><span class="forecast call1"></span><span class="forecast call2"></span><span class="forecast call3"></span><span class="forecast call4"></span></p>
+  <p class="upcoming"><span class="forecast call5"></span><span class="forecast call6"></span><span class="forecast call7"></span><span class="forecast call8"></span></p>
+  <p class="upcoming"><span class="forecast call9"></span><span class="forecast call10"></span><span class="forecast call11"></span><span class="forecast call12"></span></p>
+  <p class="upcoming"><span class="forecast call13"></span><span class="forecast call14"></span><span class="forecast call15"></span><span class="forecast call16"></span></p>
+  <p class="upcoming"><span class="forecast call17"></span><span class="forecast call18"></span><span class="forecast call19"></span><span class="forecast call20"></span></p>
+
+  </div>
+        </div>
     </div>
   </div>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-8"></div>
   </div>
     <script type="text/javascript" src="jquery-3.2.1.min.js"> </script>
       <script type="text/javascript" src="jquery.js"> </script>

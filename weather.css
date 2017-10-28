@@ -7,11 +7,11 @@ html, body{
 }
 
 .city{
-  width:100%;
-  border: 2px solid lightgrey;
+
+  /*border: 2px solid black;*/
   margin: 0 auto;
   text-align: left;
-  font-size: 21px;
+  font-size: 16px;
 /*  border-radius: 2%;*/
 }
 
@@ -22,7 +22,15 @@ form{
 
 .change{
   text-transform: capitalize;
-
+  font-size: 32px;
+  padding-top: 10px;
+  color:blue;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    margin-top: 10px;
 }
 
 .col-sm-6 {
@@ -30,40 +38,61 @@ form{
 }
 
 .div1{
-  background-color: #F7F9F9;
-  height:200px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height:800px;
   width:84%;
   padding-left: 20px;
   margin-bottom: 28px;
   border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 0;
 }
 
 .div2{
-  background-color:#F7F9F9;
+  background-color: rgba(0, 0, 0, 0.3);
   height:120px;
   width:84%;
   padding-left: 20px;
   border-bottom: 0;
   border-radius: 10px 10px 0 0;
+  font-weight: bolder;
+  color: blue;
+  text-decoration: underline;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .div2a{
-  background-color: white;
-  height:80px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height:100px;
   width:84%;
   padding-left: 20px;
+/*  margin-bottom: 8px;
+  border-radius: 0 0 10px 10px;*/
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   border-top: 0;
-  margin-bottom: 8px;
-  border-radius: 0 0 10px 10px;
+  border-bottom: 0;
 }
 
+
 .div3{
-  background-color: #F7F9F9;
-  height:120px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  height:180px;
   width:84%;
   padding-left: 20px;
-  border-radius: 10px 10px 0 0;
   border-bottom: 0;
+  border-top: 0;
+  padding: 30px 0 30px 0;
+/*  border-radius: 10px 10px 0 0;*/
+
+
+
 }
 
 .div3a, .div3b, .div3c, .div3d, .div3e {
@@ -71,57 +100,75 @@ form{
   width:84%;
   padding-left: 20px;
   border-top: 0;
-  border-bottom: 0;
+
 }
 
 .div3a{
-  background-color: #D5F5E3;
-  border-color: #D5F5E3;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-bottom: 0;
+  border-top: 0;
 }
 
 .div3b{
-  background-color: white;
-  border-color: #D5F5E3;
+  background-color: rgba(0,0,0,0.3);
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-bottom: 0;
 }
 
 .div3c{
-  background-color: #FCF3CF;
-  border-color: #FCF3CF;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-bottom: 0;
 }
 
 .div3d{
-  background-color: white;
-  border-color: #FCF3CF;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-bottom: 0;
 }
 
 .div3e{
-  background-color: #AED6F1;
-  border-color: #AED6F1;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-bottom: 0;
 }
 .div3f{
-  background-color: white;
-  border-color: #AED6F1;
+  background-color: rgba(0, 0, 0, 0.3);
   width:84%;
   padding-left: 20px;
   border-top: 0;
   border-radius: 0 0 10px 10px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  height: 100px;
+  padding-bottom: 20px;
 }
 
-.div3b, .div3d, .div3f{
-  margin-top: -10px;
+.div3b, .div3d {
   height:80px;
 }
 
 #weather_button{
   background-color: white;
   border-radius: 4px;
-  border: 2px solid lightgrey;
+  border: 2px solid black;
+  color:black;
 }
 
 .town{
   border-radius: 4px;
   border: 0;
-  border: 2px solid lightgrey;
+  border: 2px solid black;
+  color:black;
 }
 
 span, form{
@@ -130,40 +177,148 @@ span, form{
 }
 
 .div_headers{
-    font-size: 40px;
-    padding-top: 30px;
+    font-size: 30px;
+    padding-top: 15px;
+    text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
 }
 
 .div_headers2{
-    font-size: 32px;
-    padding-top: 20px;
+    font-size: 24px;
+    padding-top: 10px;
+    text-decoration: underline;
+    -2px -2px 0 black,
+		2px -2px 0 black,
+		-2px 2px 0 black,
+		2px 2px 0 black;
 }
-
-.change{
-  font-size: 52px;
-  padding-top: 34px;
-}
-
 
 .conditions {
   font-size: 28px;
-  padding-top: 20px;
+  padding-top: 10px;
+  color:red;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
 }
 
 
 .current, .high, .low{
-  font-size: 24px;
-  padding-top: 20px;
+  font-size: 22px;
+  padding-top: 5px;
+  color:black;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
 }
 
 .sub1{
-  color: #196F3D;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .sub2{
-  color: #B7950B;
+  display: inline-block;
+  margin-left: 10px;
 }
 
-.sub3{
+/*.sub3{
   color: #2471A3;
+}*/
+
+#header{
+  line-height: 40px;
+}
+
+#weekly{
+  margin-top: 80px;
+  font-size: 24px;
+}
+
+.sub4{
+  color: white;
+ line-height: 60px;
+ padding-bottom: 15px;
+}
+
+#winter{
+  background-image: url(http://jonvilma.com/images/winter-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#early{
+  background-image: url(http://www.wallpaperbetter.com/wallpaper/110/741/95/early-summer-sunrise-meadow-grass-road-sky-clouds-1080P-wallpaper-middle-size.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#hot{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://az616578.vo.msecnd.net/files/2016/06/12/636013556774509163985867961_RR-bright-big-relax-written-in-sand.jpg);
+}
+
+#spring{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://wallpaperscraft.com/image/early_spring_melting_snow_landscape_nature_road_dirt_62028_3840x2160.jpg);
+}
+
+
+#fall {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images4.alphacoders.com/160/thumb-1920-16086.jpg);
+}
+
+#summer{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://previews.123rf.com/images/pakhnyushchyy/pakhnyushchyy1006/pakhnyushchyy100600007/7099806-sunny-sky-background-whith-clouds-Stock-Photo.jpg);
+  background-size: cover;
+}
+
+#rain{
+    background-image: url(https://images.designtrends.com/wp-content/uploads/2016/06/08051507/Falling-Rain-with-Leafs-Background.jpg);
+    background-size: cover;
+}
+
+.normal{
+  background-image: url(http://ayay.co.uk/backgrounds/weather/clouds/blue-sea-horizon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#five-day{
+  text-shadow:
+		-2px -2px 0 black,
+		2px -2px 0 black,
+		-2px 2px 0 black,
+		2px 2px 0 black;
+    font-size: 40px;
+}
+
+
+.forecast{
+  color: black;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+    margin-right: 15px;
+}
+
+.call2,.call6,.call10,.call14,.call18{
+  color: red
+
 }
